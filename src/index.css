@@ -282,3 +282,10 @@ main.get {
     letter-spacing: 0.94px;
     line-height: 42px;
 }
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

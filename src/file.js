@@ -23,7 +23,7 @@ function handlChange() {
                     col.dataIndex = titileToDataIndex(value);
                     cols.push(col);
                 } else if (R === 1) {
-                    cols[C].description = value;
+                    // cols[C].description = value;
                     console.log(value)
                     if (value.search(/自定义排序/)) {
                         cols[C].sorter = true;
@@ -38,6 +38,7 @@ function handlChange() {
                 }
             }
         }
+        document.querySelector('textarea').value = JSON.stringify(cols);
         console.log(cols);
     }
     reader.readAsBinaryString(file);

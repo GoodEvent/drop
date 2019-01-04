@@ -5,6 +5,7 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "code-stringify": "^1.2.3",
     "parse5": "^5.0.0",
     "rxjs": "^6.3.3"
   },
